@@ -1,0 +1,4 @@
+order_id,customer_id,sku,quantity,unit_price,currency,status,order_date
+ord-300501,cust-7110,SKU-LAMP-DESK,1,39.99,USD,paid,2026-07-01
+ord-300502,cust-9932,SKU-CABLE-USBC,-2,9.99,USD,paid,2026-07-01
+,cust-4451,SKU-CHAIR-ERGO,1,not-a-price,dollars,teleported,01/07/2026

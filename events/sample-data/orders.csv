@@ -1,0 +1,6 @@
+order_id,customer_id,sku,quantity,unit_price,currency,status,order_date
+ord-100241,cust-8841,SKU-TSHIRT-RED-M,2,19.99,USD,paid,2026-06-30
+ord-100242,cust-1203,SKU-MUG-CERAMIC,1,12.50,USD,shipped,2026-06-30
+ord-100243,cust-8841,SKU-HOODIE-BLK-L,1,54.00,USD,pending,2026-07-01
+ord-100244,cust-5527,SKU-STICKER-PACK,6,3.25,EUR,paid,2026-07-01
+ord-100245,cust-0098,SKU-CAP-NAVY,1,24.99,GBP,delivered,2026-06-29

@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars and adjust. terraform.tfvars is gitignored.
+
+project_name = "serverless-etl"
+environment  = "dev"
+aws_region   = "us-east-1"
+dataset_name = "orders"
+
+# Subscribe an inbox to failure alerts (confirmation email required).
+# alert_email = "oncall@example.com"
+
+lambda_memory_mb       = 512
+lambda_timeout_seconds = 120
+log_retention_days     = 30
+raw_expiration_days    = 90
+max_invalid_ratio      = "0.5"

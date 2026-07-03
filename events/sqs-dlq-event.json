@@ -1,0 +1,33 @@
+{
+  "Records": [
+    {
+      "messageId": "2e1424d4-f796-459a-8184-9c92662be6da",
+      "receiptHandle": "AQEBzWwaftRI0KuVm4tP+/7q1rGgNqicHq...",
+      "body": "{\"Records\":[{\"eventVersion\":\"2.1\",\"eventSource\":\"aws:s3\",\"eventName\":\"ObjectCreated:Put\",\"s3\":{\"bucket\":{\"name\":\"serverless-etl-dev-raw-123456789012\"},\"object\":{\"key\":\"incoming/orders-2026-06-30.csv\"}}}]}",
+      "attributes": {
+        "ApproximateReceiveCount": "1",
+        "SentTimestamp": "1782828312000",
+        "SenderId": "AIDAEXAMPLE",
+        "ApproximateFirstReceiveTimestamp": "1782828312050"
+      },
+      "messageAttributes": {
+        "RequestID": {
+          "stringValue": "8f1c4e2a-9d3b-4a6e-b1c7-2f5a8d9e0c3b",
+          "dataType": "String"
+        },
+        "ErrorCode": {
+          "stringValue": "200",
+          "dataType": "String"
+        },
+        "ErrorMessage": {
+          "stringValue": "IngestionError: s3://serverless-etl-dev-raw-123456789012/incoming/orders-2026-06-30.csv: 3 of 4 rows invalid, above threshold 0.5",
+          "dataType": "String"
+        }
+      },
+      "md5OfBody": "e4e68fb7bd0e697a0ae8f1bb342846b3",
+      "eventSource": "aws:sqs",
+      "eventSourceARN": "arn:aws:sqs:us-east-1:123456789012:serverless-etl-dev-ingest-dlq",
+      "awsRegion": "us-east-1"
+    }
+  ]
+}

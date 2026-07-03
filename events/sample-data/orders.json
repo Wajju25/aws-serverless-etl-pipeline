@@ -1,0 +1,22 @@
+[
+  {
+    "order_id": "ord-200310",
+    "customer_id": "cust-4410",
+    "sku": "SKU-NOTEBOOK-A5",
+    "quantity": 3,
+    "unit_price": "7.99",
+    "currency": "usd",
+    "status": "PAID",
+    "order_date": "2026-06-30T09:14:00Z"
+  },
+  {
+    "order_id": "ord-200311",
+    "customer_id": "cust-2207",
+    "sku": "SKU-PEN-GEL-BLUE",
+    "quantity": 10,
+    "unit_price": "1.45",
+    "currency": "usd",
+    "status": "shipped",
+    "order_date": "2026-07-01"
+  }
+]
